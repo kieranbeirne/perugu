@@ -6,6 +6,13 @@ import './Header.css'; // Ensure the Header.css file exists for styling
 const Header = () => {
   const [isNavVisible, setIsNavVisible] = useState(false);
 
+  const scrollToTop = () => {
+    window.scroll({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
   const scrollToSection = (event) => {
     event.preventDefault(); // Prevent the default anchor link behavior
     const href = event.currentTarget.getAttribute('href'); // Get the href attribute of the clicked element
@@ -19,7 +26,7 @@ const Header = () => {
 
   return (
     <header className="header">
-      <div className="brand-name">Perugu</div>
+      <div className="brand-name" onClick={scrollToTop}>Perugu</div>
       <div className="nav-toggle" onClick={() => setIsNavVisible(!isNavVisible)}>
         {/* Toggle Button for Mobile */}
         <i className={isNavVisible ? 'arrow up' : 'arrow down'} />
