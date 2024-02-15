@@ -38,3 +38,29 @@
     text-decoration: underline;
   }
   
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column; /* Stack the brand name and navigation */
+      align-items: flex-start; /* Align items to the start of the header */
+    }
+  
+    .header .brand-name {
+      margin-bottom: 1rem; /* Add space between brand name and nav items */
+    }
+  
+    .header ul {
+      flex-direction: column; /* Stack the navigation items vertically */
+      width: 100%; /* Full width */
+      align-items: flex-start; /* Align items to the start */
+    }
+  
+    .header li {
+      width: 100%; /* Full width for each list item */
+    }
+  
+    .header li a {
+      display: block; /* Make anchor fill the list item */
+      width: 100%; /* Full width */
+      text-align: left; /* Align text to the left */
+    }
+  }
