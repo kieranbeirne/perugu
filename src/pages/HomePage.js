@@ -23,6 +23,21 @@ const HomePage = () => {
         <section id="about-us" className="section about-us">
         <h2>About Us</h2>
         <div className="about-container">
+          <img src="/janak-pfp.jpg" alt="Janak Abraham" className="about-image" />
+          <h3 className="about-name">Janak Abraham&nbsp;
+          <a href="https://www.linkedin.com/in/janak-abraham-977284268/" target="_blank" rel="noopener noreferrer" className="linkedin-icon">
+          <FontAwesomeIcon icon={faLinkedin} /> 
+          </a>
+          </h3>
+          <p className="about-bio">
+            Howdy, my name is Janak Abraham, and I am currently a sophomore Biomedical Science major with a minor in business. I aspire to become a sports medicine physician and work alongside athletes to better their performance. Utilizing the theory “food is medicine” my teammates and I hope to become a driving force in completely understanding the capabilities of the gut microbiome.
+          </p>
+        </div>
+        <br></br>
+        <hr width="40%"></hr>
+        <br></br>
+        <br></br>
+        <div className="about-container">
           <img src="/kieran-pfp.jpeg" alt="Kieran Beirne" className="about-image" />
           <h3 className="about-name">Kieran Beirne&nbsp;
           <a href="https://www.linkedin.com/in/kieranbeirne/" target="_blank" rel="noopener noreferrer" className="linkedin-icon">
@@ -46,21 +61,6 @@ const HomePage = () => {
           </h3>
           <p className="about-bio">
             Howdy, my name is Satwik Putluri, and I am currently a sophomore studying biomedical sciences while pursuing a business minor. My career goal is to practice medicine while also conducting research. I am excited to work with my teammates to better understand the relation between the gut microbiome and running endurance as the field of gut micro bacteria is a growing field in the healthcare industry.
-          </p>
-        </div>
-        <br></br>
-        <hr width="40%"></hr>
-        <br></br>
-        <br></br>
-        <div className="about-container">
-          <img src="/janak-pfp.jpg" alt="Janak Abraham" className="about-image" />
-          <h3 className="about-name">Janak Abraham&nbsp;
-          <a href="https://www.linkedin.com/in/janak-abraham-977284268/" target="_blank" rel="noopener noreferrer" className="linkedin-icon">
-          <FontAwesomeIcon icon={faLinkedin} /> 
-          </a>
-          </h3>
-          <p className="about-bio">
-            Howdy, my name is Janak Abraham, and I am currently a sophomore Biomedical Science major with a minor in business. I aspire to become a sports medicine physician and work alongside athletes to better their performance. Utilizing the theory “food is medicine” my teammates and I hope to become a driving force in completely understanding the capabilities of the gut microbiome.
           </p>
         </div>
         <br></br>
