@@ -86,3 +86,28 @@
     text-align: center; /* Ensure the bio is centered */
     margin-bottom: 1rem; /* Space below the bio */
   }
+
+  .contact-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+  .contact-details a {
+    margin-left: 0.5rem;
+    text-decoration: none;
+    color: #000; /* Adjust the color as needed */
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333; /* Adjust the background color as needed */
+    color: #fff; /* Adjust the text color as needed */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
