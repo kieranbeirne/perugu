@@ -69,11 +69,7 @@ const HomePage = () => {
         <br></br>
         <div className="about-container">
           <img src="/satwik-pfp.jpg" alt="Vikash Ravuri" className="about-image" />
-          <h3 className="about-name">Vikash Ravuri&nbsp;
-          <a href="" target="_blank" rel="noopener noreferrer" className="linkedin-icon">
-          <FontAwesomeIcon icon={faLinkedin} /> 
-          </a>
-          </h3>
+          <h3 className="about-name">Vikash Ravuri</h3>
           <p className="about-bio">
           Howdy, my name is Vikash Ravuri, and I am currently a sophomore studying biology with a business minor in pursuit of studying medicine. I am excited to work with my teammates to better understand the relation between nutrition and runners. I personally am a marathon runner and have come to understand the importance of having a well-balanced runner personalized diet. Runners are a specific niche that metabolize and require a different nutrient portfolio compared to the average person and we hope to make personalized nutrition at the forefront of runners daily life.
           </p>
