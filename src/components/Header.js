@@ -33,10 +33,10 @@ const Header = () => {
       </div>
       <nav className={isNavVisible ? 'nav active' : 'nav'}>
         <ul>
-          <li><a href="#about-us" onClick={scrollToSection}>About Us</a></li>
           <li><a href="#how-it-works" onClick={scrollToSection}>How It Works</a></li>
           <li><a href="#background" onClick={scrollToSection}>Background</a></li>
           <li><a href="#future-plans" onClick={scrollToSection}>Future Plans</a></li>
+          <li><a href="#about-us" onClick={scrollToSection}>About Us</a></li>
           <li><a href="#contact-us" onClick={scrollToSection}>Contact Us</a></li>
         </ul>
       </nav>
