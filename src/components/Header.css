@@ -16,6 +16,14 @@
     font-size: 1.5rem;
     font-weight: bold;
   }
+
+  .header .nav-toggle {
+    display: none; /* Hide toggle button on desktop */
+  }
+
+  .header .nav {
+    display: flex; /* Flex container for nav on desktop */
+  }
   
   .header ul {
     list-style: none;
@@ -37,30 +45,33 @@
     color: #555;
     text-decoration: underline;
   }
-  
+
   @media (max-width: 768px) {
-    .header {
-      flex-direction: column; /* Stack the brand name and navigation */
-      align-items: flex-start; /* Align items to the start of the header */
+    .header .nav-toggle {
+      display: block; /* Show toggle button on mobile */
+      cursor: pointer;
     }
   
-    .header .brand-name {
-      margin-bottom: 1rem; /* Add space between brand name and nav items */
+    .header .nav {
+      display: none; /* Hide nav by default on mobile */
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .header .nav.active {
+      display: flex; /* Show nav when active */
     }
   
     .header ul {
-      flex-direction: column; /* Stack the navigation items vertically */
-      width: 100%; /* Full width */
-      align-items: flex-start; /* Align items to the start */
+      width: 100%; /* Full width for ul */
+      flex-direction: column; /* Stack nav items vertically */
     }
   
     .header li {
-      width: 100%; /* Full width for each list item */
+      width: 100%; /* Full width for li */
     }
   
     .header li a {
-      display: block; /* Make anchor fill the list item */
-      width: 100%; /* Full width */
-      text-align: left; /* Align text to the left */
+      text-align: left; /* Align links to the left */
     }
   }

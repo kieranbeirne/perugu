@@ -1,9 +1,11 @@
 // src/components/Header.js
 
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css'; // Ensure the Header.css file exists for styling
 
 const Header = () => {
+  const [isNavVisible, setIsNavVisible] = useState(false);
+
   const scrollToSection = (event) => {
     event.preventDefault(); // Prevent the default anchor link behavior
     const href = event.currentTarget.getAttribute('href'); // Get the href attribute of the clicked element
@@ -18,7 +20,11 @@ const Header = () => {
   return (
     <header className="header">
       <div className="brand-name">Perugu</div>
-      <nav>
+      <div className="nav-toggle" onClick={() => setIsNavVisible(!isNavVisible)}>
+        {/* Toggle Button for Mobile */}
+        <i className={isNavVisible ? 'arrow up' : 'arrow down'} />
+      </div>
+      <nav className={isNavVisible ? 'nav active' : 'nav'}>
         <ul>
           <li><a href="#about-us" onClick={scrollToSection}>About Us</a></li>
           <li><a href="#how-it-works" onClick={scrollToSection}>How It Works</a></li>
