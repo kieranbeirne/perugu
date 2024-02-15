@@ -53,7 +53,7 @@ const HomePage = () => {
         <br></br>
         <br></br>
         <div className="about-container">
-          <img src="/satwik-pfp.jpg" alt="Janak Abraham" className="about-image" />
+          <img src="/janak-pfp.jpg" alt="Janak Abraham" className="about-image" />
           <h3 className="about-name">Janak Abraham&nbsp;
           <a href="https://www.linkedin.com/in/janak-abraham-977284268/" target="_blank" rel="noopener noreferrer" className="linkedin-icon">
           <FontAwesomeIcon icon={faLinkedin} /> 
