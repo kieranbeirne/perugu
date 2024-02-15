@@ -9,13 +9,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 1rem;
+    padding: 1.5rem 0rem;
   }
   
   .header .brand-name {
     font-size: 1.5rem;
     font-weight: bold;
     cursor: pointer;
+    padding: 0rem 0rem 0rem 1rem;
   }
 
   .header .brand-name:hover {
