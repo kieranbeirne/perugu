@@ -63,3 +63,26 @@
     font-size: 3rem;
     font-weight: bold;
   }
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align items in the center for a column flex container */
+  }
+  
+  .about-image {
+    max-width: 250px; /* Adjust the size as needed */
+    border-radius: 40%; /* Make the image round */
+    margin-bottom: 1rem; /* Space between image and name */
+  }
+  
+  .about-name {
+    font-size: 2rem; /* Adjust the size as needed */
+    margin-bottom: 0.5rem; /* Space between name and bio */
+  }
+  
+  .about-bio {
+    max-width: 600px; /* Maximum width of the bio */
+    text-align: center; /* Ensure the bio is centered */
+    margin-bottom: 1rem; /* Space below the bio */
+  }

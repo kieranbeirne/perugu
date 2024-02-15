@@ -4,6 +4,7 @@ import React from 'react';
 import Header from '../components/Header';
 import './HomePage.css'; // Ensure the HomePage.css file exists for styling
 
+
 const HomePage = () => {
   return (
     <div>
@@ -15,9 +16,15 @@ const HomePage = () => {
           <h1 className="overlay-title">Perugu</h1>
           <h2 className="overlay-subtitle">The <u>Gut</u> it Takes to Run</h2>
         </div>
-      <section id="about-us" className="section about-us">
-        <h2>About Us</h2>
-        {/* Content for About Us */}
+        <section id="about-us" className="section about-us">
+        <div className="about-container">
+          <img src="/kieran-pfp.jpeg" alt="Your Name" className="about-image" />
+          <h3 className="about-name">Kieran Beirne</h3>
+          <p className="about-bio">
+            Here is my bio. I've done this and that and am passionate about running.
+            {/* Your actual bio goes here */}
+          </p>
+        </div>
       </section>
       <section id="how-it-works" className="section how-it-works">
         <h2>How It Works</h2>
