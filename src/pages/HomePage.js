@@ -24,7 +24,7 @@ const HomePage = () => {
           <img src="/kieran-pfp.jpeg" alt="Kieran Beirne" className="about-image" />
           <h3 className="about-name">Kieran Beirne</h3>
           <p className="about-bio">
-            Here is my bio. I've done this and that and am passionate about running.
+          Howdy, my name is Kieran Beirne, and I am a senior pursuing a major in Computer Science with an interest in the intersection of technology and wellness. As an avid runner, I have developed a passion for exploring how nutrition and technology can synergize to enhance athletic performance. Through our combined efforts, I believe we can unlock personalized solutions that empower athletes to achieve optimal health and performance.
           </p>
         </div>
         <br></br>
@@ -78,6 +78,7 @@ const HomePage = () => {
         <div className="contact-details">
           <FontAwesomeIcon icon={faEnvelope} /> <a href="mailto:perugu@gmail.com">perugu@gmail.com</a>
         </div>
+        <p>Contact us for any inquiries or additional information</p>
       </section>
       <footer className="footer">
         © 2024 Perugu. All rights reserved.
