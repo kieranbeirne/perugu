@@ -11,11 +11,10 @@ const HomePage = () => {
       <div className="main-image">
         <img src="/index-photo-3.jpg" alt="Main" />
       </div>
-      {/* <div className="overlay-text">
-          <h1>Online running form analysis</h1>
-          <p>Upload your videos and improve your running form</p>
-          <button>Try For Free</button>
-        </div> */}
+      <div className="overlay-text">
+          <h1 className="overlay-title">Perugu</h1>
+          <h2 className="overlay-subtitle">The <u>Gut</u> it Takes to Run</h2>
+        </div>
       <section id="about-us" className="section about-us">
         <h2>About Us</h2>
         {/* Content for About Us */}

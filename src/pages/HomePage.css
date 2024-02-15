@@ -28,46 +28,38 @@
   
   /* You may also want to add some global styles for body, headers, etc. */
   .main-image {
-    text-align: center; /* Center the image if necessary */
+    position: relative;
+    width: 100vw; /* Make the image container full width */
+    height: 100vh; /* Make the image container full height of the viewport */
     margin-bottom: 2rem; /* Add some space below the image */
+    overflow: hidden; /* Hide the overflowed part of the image */
   }
   
   .main-image img {
-    max-width: 100%; /* Ensure the image is responsive and doesn't overflow the screen */
-    height: 900px; /* Maintain the aspect ratio of the image */
-    opacity: 80%;
-    background-color: black;    
-  }
-
-  .image-container {
-    position: relative;
-    text-align: center;
-    color: white;
-  }
-  
-  .background-image {
     width: 100%;
-    height: auto; /* Adjust height as needed */
+    height: 100%;
+    object-fit: cover; /* Cover the container while maintaining aspect ratio */
+    object-position: center; /* Center the image within the container */
+    opacity: 0.4; /* Set the opacity to 80% */
   }
   
+  /* Adjust the .overlay-text class to ensure text is positioned correctly */
   .overlay-text {
     position: absolute;
-    top: 60%;
-    left: 30%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(254, 250, 0); /* Assuming the text is white */
+    color: rgb(0, 0, 0);
+    text-align: center; /* Center the text */
+    z-index: 2; /* Ensure the text is above the image */
   }
-  
-  /* Style your button accordingly */
-  .button {
-    background-color: green; /* Use your brand color */
-    border: none;
-    color: white;
-    padding: 1rem;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+
+  .overlay-title {
+    font-size: 5rem;
+    font-weight: bolder;
+  }
+
+  .overlay-subtitle {
+    font-size: 3rem;
+    font-weight: bold;
   }
