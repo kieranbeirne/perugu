@@ -20,7 +20,19 @@ const HomePage = () => {
           <h1 className="overlay-title">Perugu</h1>
           <h2 className="overlay-subtitle">The <u>Gut</u> it Takes to Run</h2>
         </div>
-        <section id="about-us" className="section about-us">
+      <section id="how-it-works" className="section how-it-works">
+        <h2>How It Works</h2>
+        {/* Content for How It Works */}
+      </section>
+      <section id="background" className="section background">
+        <h2>Background</h2>
+        {/* Content for Background */}
+      </section>
+      <section id="future-plans" className="section future-plans">
+        <h2>Future Plans</h2>
+        {/* Content for Future Plans */}
+      </section>
+      <section id="about-us" className="section about-us">
         <h2>About Us</h2>
         <div className="about-container">
           <img src="/janak-pfp.jpg" alt="Janak Abraham" className="about-image" />
@@ -74,18 +86,6 @@ const HomePage = () => {
           Howdy, my name is Vikash Ravuri, and I am currently a sophomore studying biology with a business minor in pursuit of studying medicine. I am excited to work with my teammates to better understand the relation between nutrition and runners. I personally am a marathon runner and have come to understand the importance of having a well-balanced runner personalized diet. Runners are a specific niche that metabolize and require a different nutrient portfolio compared to the average person and we hope to make personalized nutrition at the forefront of runners daily life.
           </p>
         </div>
-      </section>
-      <section id="how-it-works" className="section how-it-works">
-        <h2>How It Works</h2>
-        {/* Content for How It Works */}
-      </section>
-      <section id="background" className="section background">
-        <h2>Background</h2>
-        {/* Content for Background */}
-      </section>
-      <section id="future-plans" className="section future-plans">
-        <h2>Future Plans</h2>
-        {/* Content for Future Plans */}
       </section>
       <section id="contact-us" className="section contact-us">
         <h2>Contact Us</h2>
