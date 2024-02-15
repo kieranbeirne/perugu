@@ -1,7 +1,7 @@
 /* src/pages/HomePage.css */
 
 .section {
-    padding: 4rem 1rem;
+    padding: 1.5rem;
     text-align: center;
   }
   
@@ -23,6 +23,7 @@
   
   .section h2 {
     margin-bottom: 1rem;
+    margin-top: 0rem;
     font-size: 2.5rem;
   }
   
@@ -31,7 +32,7 @@
     position: relative;
     width: 100vw; /* Make the image container full width */
     height: 100vh; /* Make the image container full height of the viewport */
-    margin-bottom: 2rem; /* Add some space below the image */
+    margin-bottom: 0rem; /* Add some space below the image */
     overflow: hidden; /* Hide the overflowed part of the image */
   }
   

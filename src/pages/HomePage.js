@@ -21,19 +21,19 @@ const HomePage = () => {
           <h2 className="overlay-subtitle">The <u>Gut</u> it Takes to Run</h2>
         </div>
       <section id="how-it-works" className="section how-it-works">
-        <h2>How It Works</h2>
+        <h2><u>How It Works</u></h2>
         {/* Content for How It Works */}
       </section>
       <section id="background" className="section background">
-        <h2>Background</h2>
+        <h2><u>Background</u></h2>
         {/* Content for Background */}
       </section>
       <section id="future-plans" className="section future-plans">
-        <h2>Future Plans</h2>
+        <h2><u>Future Plans</u></h2>
         {/* Content for Future Plans */}
       </section>
       <section id="about-us" className="section about-us">
-        <h2>About Us</h2>
+        <h2><u>About Us</u></h2>
         <div className="about-container">
           <img src="/janak-pfp.jpg" alt="Janak Abraham" className="about-image" />
           <h3 className="about-name">Janak Abraham&nbsp;
@@ -88,7 +88,7 @@ const HomePage = () => {
         </div>
       </section>
       <section id="contact-us" className="section contact-us">
-        <h2>Contact Us</h2>
+        <h2><u>Contact Us</u></h2>
         <div className="contact-details">
           <FontAwesomeIcon icon={faEnvelope} /> <a href="mailto:perugu@gmail.com">perugu@gmail.com</a>
         </div>
