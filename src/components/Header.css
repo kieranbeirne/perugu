@@ -64,7 +64,7 @@
     .header .nav {
       display: none; /* Hide nav by default on mobile */
       flex-direction: column;
-      width: 100vw;
+      width: 100%;
     }
   
     .header .nav.active {
@@ -72,7 +72,7 @@
     }
   
     .header ul {
-      width: 100vw; /* Full width for ul */
+      width: 100%; /* Full width for ul */
       flex-direction: column; /* Stack nav items vertically */
     }
   
