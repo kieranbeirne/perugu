@@ -46,7 +46,7 @@ const HomePage = () => {
           <div class="step">
             <h3>03</h3>
             <h4>PERSONALIZED NUTRITION</h4>
-            <p>Discover personalized recommendations for before, during, and after endurance exercises</p>
+            <p>Discover personalized recommendations for <u>before</u>, <u>during</u>, and <u>after</u> endurance exercises</p>
           </div>
         </div>
       </section>
@@ -62,11 +62,26 @@ const HomePage = () => {
       </section>
       <section className="section future-plans">
         <h2><u>Testimonies</u></h2>
-        {/* Content for Future Plans */}
+        Testimonies will go here
       </section>
       <section id="future-plans" className="section about-us">
         <h2><u>Future Plans</u></h2>
-        {/* Content for Future Plans */}
+        <div class="process-steps">
+          <div class="step">
+            <h3>🧗</h3>
+            <p>Expand our reach into diverse endurance sports markets, offering specialized solutions for athletes in disciplines that demand peak stamina and resilience</p>
+          </div>
+
+          <div class="step">
+            <h3>🧬</h3>
+            <p>Incorporate continuous glucose monitoring (CGM) and partner with leading fitness tracking brands to deliver real-time, DNA-informed feedback for optimized athletic performance</p>
+          </div>
+
+          <div class="step">
+            <h3>📈</h3>
+            <p>Dedicated to sustainable growth, we aim to scale our team and outreach efforts to become a staple in the endurance sports community, emphasizing long-term commitment and impact</p>
+          </div>
+        </div>
       </section>
       <section id="about-us" className="section future-plans">
         <h2><u>About Us</u></h2>
