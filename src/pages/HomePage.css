@@ -10,7 +10,7 @@ html, body {
 }
 
 hr {
-  width: 55%;
+  width: 60%;
 }
 
 .section {
@@ -127,7 +127,7 @@ hr {
 /* Responsive Adjustments for smaller screens */
 @media (max-width: 768px) {
   .step {
-    width: 100%; /* Adjusted to full width on smaller screens */
+    width: 80%; /* Adjusted to full width on smaller screens */
     padding: 40px 20px; /* Adjust padding to provide space on the sides */
     box-sizing: border-box; /* Ensure padding doesn't add to the width */
   }
@@ -149,7 +149,7 @@ hr {
 /* Responsive Adjustments for smaller screens */
 @media (max-width: 768px) {
   .steps {
-    width: 100%; /* Adjusted to full width on smaller screens */
+    width: 80%; /* Adjusted to full width on smaller screens */
     padding: 20px 20px; /* Adjust padding to provide space on the sides */
     box-sizing: border-box; /* Ensure padding doesn't add to the width */
   }
