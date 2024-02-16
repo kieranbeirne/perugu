@@ -146,14 +146,17 @@
   
   /* Adjust the .overlay-text class to ensure text is positioned correctly */
   .overlay-text {
-    position: absolute;
+    position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(0, 0, 0);
     text-align: center; /* Center the text */
     z-index: 2; /* Ensure the text is above the image */
+
   }
+
+
 
   .overlay-title {
     font-size: 5rem;
