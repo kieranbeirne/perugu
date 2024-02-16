@@ -166,3 +166,40 @@
   .login-modal.shake .login-error {
     opacity: 1; /* Make the error message visible when shaking */
   }
+
+  .nav ul li.nav-item {
+    display: none;
+    cursor: pointer;
+
+  }
+  
+  /* Always show the login link */
+  .nav ul li.login-link {
+    display: block;
+    cursor: pointer;
+
+  }
+  
+  /* Show all navigation items on desktop */
+  @media (min-width: 992px) {
+    .nav ul li.nav-item {
+      display: block;
+      cursor: pointer;
+
+    }
+  }
+  
+  /* Further styles to hide toggle and adjust logo on mobile */
+  @media (max-width: 992px) {
+    .nav-toggle {
+      display: none; /* Hide the toggle button on mobile */
+      cursor: pointer;
+
+    }
+  
+    .brand-name img {
+      max-width: 100px; /* Adjust the logo size on mobile if necessary */
+      cursor: pointer;
+
+    }
+  }

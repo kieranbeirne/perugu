@@ -60,7 +60,7 @@ const Header = () => {
           <li><a href="#what-we-offer" onClick={scrollToSection}>What We Offer</a></li>
           <li><a href="#future-plans" onClick={scrollToSection}>Future Plans</a></li>
           <li><a href="#about-us" onClick={scrollToSection}>About Us</a></li>
-          <li><a onClick={handleLoginClick}>Login</a></li>
+          <li className="nav-item login-link"><a onClick={handleLoginClick}>Login</a></li>
         </ul>
       </nav>
       {isLoginVisible && (
