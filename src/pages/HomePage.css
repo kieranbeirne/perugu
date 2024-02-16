@@ -240,8 +240,8 @@ hr {
   }
   
   .main-image img {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     object-fit: cover; /* Cover the container while maintaining aspect ratio */
     object-position: center; /* Center the image within the container */
     opacity: 0.3; /* Set the opacity to 80% */
