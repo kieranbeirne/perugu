@@ -59,11 +59,11 @@ const HomePage = () => {
         ​​<p className="about-offer">Our approach ensures that every athlete receives a nutrition strategy finely tuned to <u>their</u> DNA, empowering them to reach new levels of performance and endurance.</p>
         </div>
       </section>
-      <section className="section future-plans">
+      {/* <section className="section future-plans">
         <h2><u>Testimonies</u></h2>
         Testimonies will go here
-      </section>
-      <section id="future-plans" className="section about-us">
+      </section> */}
+      <section id="future-plans" className="section future-plans">
         <h2><u>Future Plans</u></h2>
         <div class="process-steps">
           <div class="steps">
@@ -82,7 +82,7 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-      <section id="about-us" className="section future-plans">
+      <section id="about-us" className="section about-us">
         <h2><u>About Us</u></h2>
         <div className="about-container">
           <img src="/janak-pfp.jpg" alt="Janak Abraham" className="about-image" />
