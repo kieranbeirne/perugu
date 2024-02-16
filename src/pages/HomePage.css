@@ -260,8 +260,11 @@ hr {
     color: rgb(0, 0, 0);
     text-align: center; /* Center the text */
     z-index: 2; /* Ensure the text is above the image */
-
   }
+
+  .overlay-text img {
+    transform: scale(1.25); /* Increase size by 25% */
+}
 
 
 
