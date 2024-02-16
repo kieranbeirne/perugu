@@ -1,5 +1,9 @@
 /* src/components/Header.css */
 
+body {
+  overflow-x: hidden;
+}
+
 .header {
     background-color: #fff;
     position: sticky;
