@@ -222,3 +222,7 @@
     text-decoration: underline;
   }
   
+  html, body {
+    overflow-x: hidden; /* This will prevent horizontal scrolling */
+  }
+  

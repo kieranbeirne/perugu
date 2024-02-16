@@ -1,4 +1,8 @@
 /* src/pages/HomePage.css */
+html, body {
+  overflow-x: hidden; /* This will prevent horizontal scrolling */
+}
+
 
 .section {
     padding: 1.5rem;
