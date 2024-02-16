@@ -62,24 +62,28 @@
   box-shadow: 0 6px 12px rgba(0,0,0,0.15); /* Enhanced shadow on hover */
 }
 
-/* Responsive Adjustments */
+/* Responsive Adjustments for medium screens */
 @media (max-width: 992px) {
   .process-steps {
     flex-direction: column;
   }
 
   .step {
-    width: 70%; /* Adjusted for medium screens */
-    margin-left: auto;
-    margin-right: auto;
+    width: 80%; /* Slightly reduced width for medium screens */
+    margin: 20px auto; /* Increased side margins for more space */
+    padding: 40px; /* Maintain padding or adjust as necessary */
   }
 }
 
+/* Responsive Adjustments for smaller screens */
 @media (max-width: 768px) {
   .step {
-    width: 90%; /* Full width on smaller screens */
+    width: 100%; /* Adjusted to full width on smaller screens */
+    padding: 40px 20px; /* Adjust padding to provide space on the sides */
+    box-sizing: border-box; /* Ensure padding doesn't add to the width */
   }
 }
+
 
 .step a {
   color: #1a0dab; /* Standard link color */

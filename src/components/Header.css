@@ -15,7 +15,7 @@
   .header .brand-name {
     font-weight: bold;
     cursor: pointer;
-    padding: 0rem 0rem 0rem 1rem;
+    padding: 0rem 0rem 0rem 0rem;
   }
 
   .header .brand-name img{
