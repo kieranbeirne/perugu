@@ -323,6 +323,6 @@ hr {
     color: #fff; /* Adjust the text color as needed */
     position: relative;
     bottom: 0;
-    width: 100%;
+    width: 100vw;
   }
   
