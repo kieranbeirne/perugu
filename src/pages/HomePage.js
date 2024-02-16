@@ -96,7 +96,9 @@ const HomePage = () => {
           </p>
         </div>
         <br></br>
-        <hr width="40%"></hr>
+        <div className="about-container">
+        <hr></hr>
+        </div>
         <br></br>
         <br></br>
         <div className="about-container">
@@ -111,7 +113,9 @@ const HomePage = () => {
           </p>
         </div>
         <br></br>
-        <hr width="40%"></hr>
+        <div className="about-container">
+        <hr></hr>
+        </div>
         <br></br>
         <br></br>
         <div className="about-container">
@@ -126,7 +130,9 @@ const HomePage = () => {
           </p>
         </div>
         <br></br>
-        <hr width="40%"></hr>
+        <div className="about-container">
+        <hr></hr>
+        </div>
         <br></br>
         <br></br>
         <div className="about-container">

@@ -1,8 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* Consider adding 'box-sizing: border-box;' to include padding and border in the element's total width and height. */
+  box-sizing: border-box;
+}
 /* src/pages/HomePage.css */
 html, body {
   overflow-x: hidden; /* This will prevent horizontal scrolling */
 }
 
+hr {
+  width: 55%;
+}
 
 .section {
     padding: 1.5rem;
