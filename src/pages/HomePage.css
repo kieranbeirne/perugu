@@ -41,7 +41,7 @@
     height: 100%;
     object-fit: cover; /* Cover the container while maintaining aspect ratio */
     object-position: center; /* Center the image within the container */
-    opacity: 0.4; /* Set the opacity to 80% */
+    opacity: 0.3; /* Set the opacity to 80% */
   }
   
   /* Adjust the .overlay-text class to ensure text is positioned correctly */
