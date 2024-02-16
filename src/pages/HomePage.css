@@ -122,8 +122,8 @@ hr {
 
   .step {
     width: 80%; /* Slightly reduced width for medium screens */
-    margin: 20px auto; /* Increased side margins for more space */
-    padding: 40px; /* Maintain padding or adjust as necessary */
+    margin: 10px auto; /* Increased side margins for more space */
+    padding: 15px; /* Maintain padding or adjust as necessary */
   }
 }
 
@@ -131,7 +131,7 @@ hr {
 @media (max-width: 768px) {
   .step {
     width: 80%; /* Adjusted to full width on smaller screens */
-    padding: 40px 20px; /* Adjust padding to provide space on the sides */
+    padding: 20px 10px; /* Adjust padding to provide space on the sides */
     box-sizing: border-box; /* Ensure padding doesn't add to the width */
   }
 }
@@ -143,8 +143,8 @@ hr {
 
   .steps {
     width: 80%; /* Slightly reduced width for medium screens */
-    margin: 20px auto; /* Increased side margins for more space */
-    padding: 30px;
+    margin: 10px auto; /* Increased side margins for more space */
+    padding: 10px;
     padding-top: 10px; /* Maintain padding or adjust as necessary */
   }
 }
@@ -153,7 +153,7 @@ hr {
 @media (max-width: 768px) {
   .steps {
     width: 80%; /* Adjusted to full width on smaller screens */
-    padding: 20px 20px; /* Adjust padding to provide space on the sides */
+    padding: 10px 10px; /* Adjust padding to provide space on the sides */
     box-sizing: border-box; /* Ensure padding doesn't add to the width */
   }
 }
