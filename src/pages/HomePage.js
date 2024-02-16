@@ -22,7 +22,6 @@ const HomePage = () => {
       <section id="how-it-works" className="section how-it-works">
         <h2><u>Our Process</u></h2>
         <p>Learn how <b>perugu</b> customizes your nutrition according to your distinct genetic profile through three simple steps</p>
-
         <div class="process-steps">
           <div class="step">
             <h3>01</h3>

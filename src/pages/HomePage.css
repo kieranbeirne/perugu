@@ -91,6 +91,10 @@
   box-shadow: 0 6px 12px rgba(0,0,0,0.15); /* Enhanced shadow on hover */
 }
 
+.steps:hover {
+  transform: translateY(-5px); /* Slight upward lift */
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15); /* Enhanced shadow on hover */
+}
 /* Responsive Adjustments for medium screens */
 @media (max-width: 992px) {
   .process-steps {
@@ -113,6 +117,27 @@
   }
 }
 
+@media (max-width: 992px) {
+  .process-steps {
+    flex-direction: column;
+  }
+
+  .steps {
+    width: 80%; /* Slightly reduced width for medium screens */
+    margin: 20px auto; /* Increased side margins for more space */
+    padding: 30px;
+    padding-top: 10px; /* Maintain padding or adjust as necessary */
+  }
+}
+
+/* Responsive Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .steps {
+    width: 100%; /* Adjusted to full width on smaller screens */
+    padding: 20px 20px; /* Adjust padding to provide space on the sides */
+    box-sizing: border-box; /* Ensure padding doesn't add to the width */
+  }
+}
 
 .step a {
   color: #1a0dab; /* Standard link color */
@@ -141,6 +166,36 @@
 }
 
 .step ul li a:hover {
+  text-decoration: underline; /* Adds underline on hover for better visibility */
+}
+
+.steps a {
+  color: #1a0dab; /* Standard link color */
+  text-decoration: none; /* Remove underlines from links */
+  transition: color 0.3s ease; /* Smooth color transition for hover */
+}
+
+.steps a:hover {
+  color: #0a58ca; /* Darker shade on hover for better visibility */
+}
+
+.steps ul {
+  list-style: none; /* Removes default list styling */
+  padding: 0;
+  margin: 0;
+}
+
+.steps ul li {
+  margin-bottom: 10px; /* Adds space between list items */
+  font-size: 16px; /* Adjust as needed */
+}
+
+.steps ul li a {
+  color: #1a0dab; /* Standard link color */
+  text-decoration: none; /* Removes the underline */
+}
+
+.steps ul li a:hover {
   text-decoration: underline; /* Adds underline on hover for better visibility */
 }
 
