@@ -116,7 +116,7 @@ const HomePage = () => {
         <br></br>
         <br></br>
         <div className="about-container">
-          <img src="/satwik-pfp.jpg" alt="Vikash Ravuri" className="about-image" />
+          <img src="/vikash-pfp.jpg" alt="Vikash Ravuri" className="about-image" />
           <h3 className="about-name">Vikash Ravuri&nbsp;
           <a href="https://www.linkedin.com/in/vikash-ravuri-3362a72b5/" target="_blank" rel="noopener noreferrer" className="linkedin-icon">
           <FontAwesomeIcon icon={faLinkedin} /> 
