@@ -67,17 +67,17 @@ const HomePage = () => {
       <section id="future-plans" className="section about-us">
         <h2><u>Future Plans</u></h2>
         <div class="process-steps">
-          <div class="step">
+          <div class="steps">
             <h3>🧗</h3>
             <p>Expand our reach into diverse endurance sports markets, offering specialized solutions for athletes in disciplines that demand peak stamina and resilience</p>
           </div>
 
-          <div class="step">
+          <div class="steps">
             <h3>🧬</h3>
             <p>Incorporate continuous glucose monitoring (CGM) and partner with leading fitness tracking brands to deliver real-time, DNA-informed feedback for optimized athletic performance</p>
           </div>
 
-          <div class="step">
+          <div class="steps">
             <h3>📈</h3>
             <p>Dedicated to sustainable growth, we aim to scale our team and outreach efforts to become a staple in the endurance sports community, emphasizing long-term commitment and impact</p>
           </div>
@@ -150,7 +150,7 @@ const HomePage = () => {
         <p>Contact us for any inquiries or additional information</p>
       </section>
       <footer className="footer">
-        © 2024 Perugu. All rights reserved.
+        © 2024 Perugu. All rights reserved. <br></br>Developed with React.js by <a href="https://www.linkedin.com/in/kieranbeirne/" target="_blank" rel="noopener noreferrer" style={{color: "white"}}>Kieran Beirne</a>
       </footer>
     </div>
   );

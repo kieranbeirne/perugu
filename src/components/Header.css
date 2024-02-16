@@ -84,3 +84,85 @@
       text-align: left; /* Align links to the left */
     }
   }
+
+  .login-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; /* Adjust the width as a percentage of the screen size */
+    max-width: 500px; /* Maximum width to ensure it doesn't get too large */
+    height: 60%; /* Adjust the height as a percentage of the screen size */
+    max-height: 280px; /* Maximum height */
+    background-color: #fff;
+    padding: 40px; /* Increased padding for a more spacious look */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    z-index: 100; /* Above other content */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto; /* Allows scrolling if the content is too long */
+  }
+  
+  .login-modal form {
+    width: 100%; /* Ensure form takes full width of modal */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center form fields */
+  }
+  
+  .login-modal input,
+  .login-modal button {
+    width: 90%; /* Make input fields and buttons take up most of the modal width */
+    padding: 15px; /* Increase padding for a better user experience */
+    margin-bottom: 20px; /* Increase space between form elements */
+  }
+  
+  .login-modal input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-modal button {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Shake animation */
+  @keyframes shake {
+    0%, 100% { 
+      transform: translate(-50%, -50%) translateX(0); 
+    }
+    25% { 
+      transform: translate(-50%, -50%) translateX(-10px); 
+    }
+    75% { 
+      transform: translate(-50%, -50%) translateX(10px); 
+    }
+  }
+  
+  .shake {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  }
+  
+  /* Style the close button differently if needed */
+  .login-modal button[type="button"] {
+    background-color: #999;
+  }
+
+  .login-modal .login-error {
+    color: red;
+    margin-bottom: 10px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .login-modal.shake .login-error {
+    opacity: 1; /* Make the error message visible when shaking */
+  }
