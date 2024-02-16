@@ -266,6 +266,12 @@ hr {
     transform: scale(.60); /* Increase size by 25% */
 }
 
+@media (max-width: 768px) {
+  .overlay-text img {
+      transform: scale(0.40); /* Smaller scale for mobile screens */
+  }
+}
+
 
 
   .overlay-title {
