@@ -13,10 +13,14 @@
   }
   
   .header .brand-name {
-    font-size: 1.5rem;
     font-weight: bold;
     cursor: pointer;
     padding: 0rem 0rem 0rem 1rem;
+  }
+
+  .header .brand-name img{
+    padding-top: 0.7rem;
+    max-width: 55%;
   }
 
   .header .brand-name:hover {

@@ -26,7 +26,7 @@ const Header = () => {
 
   return (
     <header className="header">
-      <div className="brand-name" onClick={scrollToTop}>Perugu</div>
+      <div className="brand-name" onClick={scrollToTop}><img src="/perugu.png" alt="Perugu Logo" /></div>
       <div className="nav-toggle" onClick={() => setIsNavVisible(!isNavVisible)}>
         {/* Toggle Button for Mobile */}
         <i className={isNavVisible ? 'arrow up' : 'arrow down'} />
