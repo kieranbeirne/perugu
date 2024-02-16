@@ -51,6 +51,7 @@ hr {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* More pronounced shadow */
   border-radius: 10px; /* Rounded corners */
   transition: transform 0.3s ease; /* Smooth transform on hover */
+  margin-bottom: 50px;
 }
 
 .step h3 {
@@ -80,6 +81,8 @@ hr {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* More pronounced shadow */
   border-radius: 10px; /* Rounded corners */
   transition: transform 0.3s ease; /* Smooth transform on hover */
+  margin-bottom: 50px;
+  
 }
 
 .steps h3 {
