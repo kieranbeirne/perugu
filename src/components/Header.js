@@ -16,7 +16,7 @@ const Header = () => {
   const scrollToSection = (event) => {
     event.preventDefault(); // Prevent the default anchor link behavior
     const href = event.currentTarget.getAttribute('href'); // Get the href attribute of the clicked element
-    const offsetTop = document.querySelector(href).offsetTop; // Get the top offset of the target section
+    const offsetTop = document.querySelector(href).offsetTop - 90; // Get the top offset of the target section
 
     window.scroll({
       top: offsetTop, // Scroll to the top offset of the target section
@@ -33,11 +33,11 @@ const Header = () => {
       </div>
       <nav className={isNavVisible ? 'nav active' : 'nav'}>
         <ul>
-          <li><a href="#how-it-works" onClick={scrollToSection}>How It Works</a></li>
-          <li><a href="#background" onClick={scrollToSection}>Background</a></li>
+          <li><a href="#how-it-works" onClick={scrollToSection}>Our Process</a></li>
+          <li><a href="#what-we-offer" onClick={scrollToSection}>What We Offer</a></li>
           <li><a href="#future-plans" onClick={scrollToSection}>Future Plans</a></li>
           <li><a href="#about-us" onClick={scrollToSection}>About Us</a></li>
-          <li><a href="#contact-us" onClick={scrollToSection}>Contact Us</a></li>
+          <li><a href="#contact-us" onClick={scrollToSection}>Login</a></li>
         </ul>
       </nav>
     </header>

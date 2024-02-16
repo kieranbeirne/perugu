@@ -9,11 +9,109 @@
   .background {
     background-color: #f4f4f4;
   }
+
+  .background p {
+    text-align: center;
+  }
   
   .how-it-works,
   .future-plans {
     background-color: #e9e9e9;
   }
+
+  /* Process Steps Styling */
+.process-steps {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.step {
+  width: 25%;
+  padding: 40px; /* Increased padding */
+  background-color: #ffffff;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* More pronounced shadow */
+  border-radius: 10px; /* Rounded corners */
+  transition: transform 0.3s ease; /* Smooth transform on hover */
+}
+
+.step h3 {
+  font-size: 48px; /* Much larger font size for the numbers */
+  font-weight: 700; /* Bolder font weight */
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+.step h4 {
+  font-weight: 600; /* Bolder than normal text but not as bold as numbers */
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.step p {
+  color: #666666;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* Hover Effect */
+.step:hover {
+  transform: translateY(-5px); /* Slight upward lift */
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15); /* Enhanced shadow on hover */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+  .process-steps {
+    flex-direction: column;
+  }
+
+  .step {
+    width: 70%; /* Adjusted for medium screens */
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .step {
+    width: 90%; /* Full width on smaller screens */
+  }
+}
+
+.step a {
+  color: #1a0dab; /* Standard link color */
+  text-decoration: none; /* Remove underlines from links */
+  transition: color 0.3s ease; /* Smooth color transition for hover */
+}
+
+.step a:hover {
+  color: #0a58ca; /* Darker shade on hover for better visibility */
+}
+
+.step ul {
+  list-style: none; /* Removes default list styling */
+  padding: 0;
+  margin: 0;
+}
+
+.step ul li {
+  margin-bottom: 10px; /* Adds space between list items */
+  font-size: 16px; /* Adjust as needed */
+}
+
+.step ul li a {
+  color: #1a0dab; /* Standard link color */
+  text-decoration: none; /* Removes the underline */
+}
+
+.step ul li a:hover {
+  text-decoration: underline; /* Adds underline on hover for better visibility */
+}
+
+
   
   .contact-us {
     background-color: #dedede;
@@ -34,6 +132,7 @@
     height: 100vh; /* Make the image container full height of the viewport */
     margin-bottom: 0rem; /* Add some space below the image */
     overflow: hidden; /* Hide the overflowed part of the image */
+    background-color: #000;
   }
   
   .main-image img {
@@ -42,6 +141,7 @@
     object-fit: cover; /* Cover the container while maintaining aspect ratio */
     object-position: center; /* Center the image within the container */
     opacity: 0.3; /* Set the opacity to 80% */
+    background-color: #000;
   }
   
   /* Adjust the .overlay-text class to ensure text is positioned correctly */
@@ -86,6 +186,13 @@
     max-width: 600px; /* Maximum width of the bio */
     text-align: center; /* Ensure the bio is centered */
     margin-bottom: 1rem; /* Space below the bio */
+  }
+
+  .about-offer {
+    max-width: 600px; /* Maximum width of the bio */
+    text-align: center; /* Ensure the bio is centered */
+    margin-bottom: 0rem;
+    margin-top: 0rem;
   }
 
   .contact-details {
