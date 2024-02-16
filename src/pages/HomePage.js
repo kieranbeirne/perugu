@@ -17,7 +17,7 @@ const HomePage = () => {
         <img src="/index-photo-3.jpg" alt="Main" />
       </div>
       <div id="logo" className="overlay-text">
-          <img src="/perugu-logo-sharp.png" alt="Perugu Logo" />
+          <img src="/main-logo.png" alt="Perugu Logo" />
         </div>
       <section id="how-it-works" className="section how-it-works">
         <h2><u>Our Process</u></h2>
