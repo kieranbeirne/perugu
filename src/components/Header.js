@@ -65,13 +65,13 @@ const Header = () => {
       </nav>
       {isLoginVisible && (
         <div className={`login-modal ${shake ? 'shake' : ''}`}>
-          {loginError && <div className="login-error">{loginError}</div>}
           <form>
             <input type="email" placeholder="Email" required />
             <input type="password" placeholder="Password" required />
             <button type="submit" onClick={attemptLogin}>Login</button>
             <button type="button" onClick={closeLogin}>Close</button>
           </form>
+          {loginError && <div className="login-error">{loginError}</div>}
         </div>
       )}
     </header>

@@ -64,7 +64,7 @@
     .header .nav {
       display: none; /* Hide nav by default on mobile */
       flex-direction: column;
-      width: 100%;
+      width: 100vw;
     }
   
     .header .nav.active {
@@ -72,7 +72,7 @@
     }
   
     .header ul {
-      width: 100%; /* Full width for ul */
+      width: 100vw; /* Full width for ul */
       flex-direction: column; /* Stack nav items vertically */
     }
   
@@ -92,8 +92,8 @@
     transform: translate(-50%, -50%);
     width: 80%; /* Adjust the width as a percentage of the screen size */
     max-width: 500px; /* Maximum width to ensure it doesn't get too large */
-    height: 60%; /* Adjust the height as a percentage of the screen size */
-    max-height: 280px; /* Maximum height */
+    height: 70%; /* Adjust the height as a percentage of the screen size */
+    max-height: 350px; /* Maximum height */
     background-color: #fff;
     padding: 40px; /* Increased padding for a more spacious look */
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
