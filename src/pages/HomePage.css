@@ -263,7 +263,7 @@ hr {
   }
 
   .overlay-text img {
-    transform: scale(.40); /* Increase size by 25% */
+    transform: scale(1.20); /* Increase size by 25% */
 }
 
 
