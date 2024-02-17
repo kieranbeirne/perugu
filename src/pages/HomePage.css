@@ -263,19 +263,7 @@ hr {
   }
 
   .overlay-text img {
-    transform: scale(.60); /* Increase size by 25% */
-}
-
-@media (max-width: 768px) {
-  .overlay-text img {
-      transform: scale(0.30); /* Smaller scale for mobile screens */
-  }
-}
-
-@media (max-width: 992px) {
-  .overlay-text img {
-    transform: scale(0.30); /* Smaller scale for mobile screens */
-}
+    transform: scale(.40); /* Increase size by 25% */
 }
 
 
