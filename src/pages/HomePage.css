@@ -264,13 +264,18 @@ hr {
 
 /* Default scale for desktop */
 .overlay-text img {
-    transform: scale(1.10); 
+  transform: scale(1.0); /* or whatever scale you prefer */
+  max-width: 100%; /* Prevents the image from exceeding the parent's width */
+  width: auto; /* Maintains the aspect ratio */
 }
+
 
 /* Media query for mobile devices */
 @media (max-width: 768px) {
     .overlay-text img {
-        transform: scale(0.5);
+        transform: scale(0.7);
+        max-width: 100%; /* Prevents the image from exceeding the parent's width */
+        width: auto; /* Maintains the aspect ratio */
     }
 }
 
