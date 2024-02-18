@@ -17,46 +17,39 @@ const HomePage = () => {
         <img src="/index-photo-3.jpg" alt="Main" />
       </div>
       <div id="logo" className="overlay-text">
-          <img src="/main-logo-1.png" alt="Perugu Logo" />
+          <img src="/logo-03.png" alt="Perugu Logo" />
         </div>
       <section id="how-it-works" className="section how-it-works">
         <h2><u>Our Process</u></h2>
-        <p>Learn how <b>perugu</b> customizes your nutrition according to your distinct genetic profile through three simple steps</p>
+        <p>Learn how <b>perugu</b> customizes your your nutrition according to your distinct metabolic profile through three simple steps</p>
         <div class="process-steps">
           <div class="step">
             <h3>01</h3>
-            <h4>SUBMIT DNA</h4>
-            <p>Provide Your DNA Information from Trusted Sources such as 23andMe or Ancestry</p>
+            <h4>Submit Urine Sample</h4>
+            <p>Once given our standard kit with the nutrient rich shake, urine kit, and instructions on how to complete the protocol</p>
           </div>
 
           <div class="step">
             <h3>02</h3>
-            <h4>DNA ANALYSIS</h4>
-            <ul>
-              <li><strong>PPARA</strong> - <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8625318/" target="_blank" rel="noopener noreferrer">Energy Metabolism</a></li>
-              <li><strong>MCTI</strong> - <a href="https://pubmed.ncbi.nlm.nih.gov/23628675/" target="_blank" rel="noopener noreferrer">Lactic Acid Buildup</a></li>
-              <li><strong>FTO</strong> - <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9202533/" target="_blank" rel="noopener noreferrer">Saturation - How Full You Feel)</a></li>
-              <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10358902/" target="_blank" rel="noopener noreferrer">[Source]</a></li>
-            </ul>
+            <h4>Urine Test Analysis</h4>
+            <p>We evaluate your metabolic rate associated with certain compounds present within your urine sample</p>
           </div>
-
-
 
           <div class="step">
             <h3>03</h3>
             <h4>PERSONALIZED NUTRITION</h4>
-            <p>Discover personalized recommendations for <u>before</u>, <u>during</u>, and <u>after</u> endurance exercises</p>
+            <p>Discover personalized nutritional recommendations for <u>before</u>, <u>during</u>, and <u>after</u> endurance exercises</p>
           </div>
         </div>
       </section>
       <section id="what-we-offer" className="section background">
         <h2><u>What We Offer</u></h2>
         <div className="about-container">
-        ​​<p className="about-offer">At <b>perugu</b>, we delve deep into the genetic makeup of endurance athletes, utilizing sophisticated analysis of key indicators such as saturation, lactic acid buildup, and energy metabolism <b>encoded within their DNA.</b></p>
+        ​​<p className="about-offer">At <b>perugu</b>, we delve deep into the metabolic makeup of endurance athletes, utilizing sophisticated analysis of key metabolites </p>
        <br></br>
-       ​​<p className="about-offer">By utilizing these genetic markers, we provide comprehensive insights into each athlete's unique nutritional needs, tailoring precise plans to optimize <b>performance, recovery,</b> and overall <b>well-being.</b></p>
+       ​​<p className="about-offer">By utilizing these metabolic markers, we provide comprehensive insights into each athlete's unique nutritional needs, tailoring precise plans to optimize <b>performance</b>, <b>recovery</b>, and overall <b>well-being</b></p>
        <br></br>
-        ​​<p className="about-offer">Our approach ensures that every athlete receives a nutrition strategy finely tuned to <u>their</u> DNA, empowering them to reach new levels of performance and endurance.</p>
+        ​​<p className="about-offer">Our approach ensures that every athlete receives a nutrition strategy finely tuned to their metabolic profile, empowering them to reach <b>new levels of performance and endurance</b></p>
         </div>
       </section>
       {/* <section className="section future-plans">
@@ -72,8 +65,8 @@ const HomePage = () => {
           </div>
 
           <div class="steps">
-            <h3>🧬</h3>
-            <p>Incorporate continuous glucose monitoring (CGM) and partner with leading fitness tracking brands to deliver real-time, DNA-informed feedback for optimized athletic performance</p>
+            <h3>🔬</h3>
+            <p>Incorporate continuous glucose monitoring (CGM) and partner with leading fitness tracking brands to deliver real-time feedback for optimized athletic performance</p>
           </div>
 
           <div class="steps">
