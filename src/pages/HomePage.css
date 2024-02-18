@@ -270,7 +270,7 @@ hr {
 /* Media query for mobile devices */
 @media (max-width: 768px) {
     .overlay-text img {
-        transform: scale(0.7);
+        transform: scale(0.5);
     }
 }
 
