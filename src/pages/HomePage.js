@@ -21,12 +21,12 @@ const HomePage = () => {
         </div>
       <section id="how-it-works" className="section how-it-works">
         <h2><u>Our Process</u></h2>
-        <p>Learn how <b>perugu</b> customizes your your nutrition according to your distinct metabolic profile through three simple steps</p>
+        <p>Learn how <b>perugu</b> customizes your nutrition according to your distinct metabolic profile through three simple steps</p>
         <div class="process-steps">
           <div class="step">
             <h3>01</h3>
             <h4>Submit Urine Sample</h4>
-            <p>Once given our standard kit with the nutrient rich shake, urine kit, and instructions on how to complete the protocol</p>
+            <p>You will be sent our standard kit with the nutrient rich shake, urine kit, and instructions on how to complete the protocol</p>
           </div>
 
           <div class="step">
@@ -38,7 +38,7 @@ const HomePage = () => {
           <div class="step">
             <h3>03</h3>
             <h4>PERSONALIZED NUTRITION</h4>
-            <p>Discover personalized nutritional recommendations for <u>before</u>, <u>during</u>, and <u>after</u> endurance exercises</p>
+            <p>Receive personalized nutritional recommendations for <u>before</u>, <u>during</u>, and <u>after</u> endurance exercises</p>
           </div>
         </div>
       </section>
