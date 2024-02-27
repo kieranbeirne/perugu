@@ -51,6 +51,21 @@ const HomePage = () => {
        <br></br>
         ​​<p className="about-offer">Our approach ensures that every athlete receives a nutrition strategy finely tuned to their metabolic profile, empowering them to reach <b>new levels of performance and endurance</b></p>
         </div>
+        <br></br>
+        <br></br>
+
+        <div className="about-containers">
+          <div class="step-t">
+              <h3>Harrison F.</h3>
+              <h4>Corps Member at A&M</h4>
+              <p>“The quality and attention to detail that Peregu emphasizes on its personalized nutrition plan makes it one of the premier tools for avid runners and military personnel such as myself. I can use to maximize performance and mitigate injury in my active lifestyle.”</p>
+          </div>
+          <div class="step-t">
+              <h3>Tim M.</h3>
+              <h4>Former A&M Cross Country Runner</h4>
+              <p>"Peregu's concept of tailored nutritional guidance could revolutionize the track and field arena. As an athlete, finding the right balance of nutrients to fuel explosive power and enduring stamina remains a constant challenge. I would definitely use this product."</p>
+          </div>
+        </div>
       </section>
       {/* <section className="section future-plans">
         <h2><u>Testimonies</u></h2>
